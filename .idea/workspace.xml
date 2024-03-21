@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7840f0fa-e20f-4514-919b-6be52ecf26e3" name="Changes" comment="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7840f0fa-e20f-4514-919b-6be52ecf26e3" name="Changes" comment="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records">
       <change beforePath="$PROJECT_DIR$/pickling/pickling.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickling/pickling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickling/unpickle.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710994610517</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records">
+      <created>1710997407117</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710997407117</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +176,7 @@
     <MESSAGE value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making new file for sys" />
     <MESSAGE value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling" />
     <MESSAGE value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records" />
-    <option name="LAST_COMMIT_MESSAGE" value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records" />
+    <MESSAGE value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records" />
+    <option name="LAST_COMMIT_MESSAGE" value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records" />
   </component>
 </project>
