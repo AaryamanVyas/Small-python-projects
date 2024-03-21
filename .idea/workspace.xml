@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7840f0fa-e20f-4514-919b-6be52ecf26e3" name="Changes" comment="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records">
-      <change beforePath="$PROJECT_DIR$/pickling/pickling.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickling/pickling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickling/unpickle.py" beforeDir="false" />
+    <list default="true" id="7840f0fa-e20f-4514-919b-6be52ecf26e3" name="Changes" comment="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickling/stu.dat" beforeDir="false" afterPath="$PROJECT_DIR$/pickling/stu.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickling/working with cvs files.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.pickling">
+  <component name="RunManager" selected="Python.working with csv files">
     <configuration name="file handling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Small-python-projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,8 +84,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="working with csv files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Small-python-projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/working with csv files.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.working with csv files" />
         <item itemvalue="Python.pickling" />
         <item itemvalue="Python.file handling" />
       </list>
@@ -155,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710997407117</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #">
+      <created>1711000177571</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711000177571</updated>
+    </task>
+    <task id="LOCAL-00010" summary="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #">
+      <created>1711000430589</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711000430589</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +214,7 @@
     <MESSAGE value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling" />
     <MESSAGE value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records" />
     <MESSAGE value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records" />
-    <option name="LAST_COMMIT_MESSAGE" value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records" />
+    <MESSAGE value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #" />
+    <option name="LAST_COMMIT_MESSAGE" value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #" />
   </component>
 </project>
