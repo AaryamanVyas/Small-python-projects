@@ -39,4 +39,13 @@
 #     file.close()
 # countp()
 
-
+#given text file car.txt conatining the following information of cars : carno,carname,milage.
+#write a python function to display details of all those cars whoes milage is from 100 to 150
+file=open("car.txt",'r')
+text=file.readlines()
+file.close()
+for line in text:
+    x=line.split()
+    milage=(int)(x[2])
+    if milage>100 and milage<150:
+        print(line)
