@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7840f0fa-e20f-4514-919b-6be52ecf26e3" name="Changes" comment="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #&#10;csv folder and basic code for csv">
-      <change beforePath="$PROJECT_DIR$/csv/working with csv files.py" beforeDir="false" afterPath="$PROJECT_DIR$/csv/working with csv files.py" afterDir="false" />
-    </list>
+    <list default="true" id="7840f0fa-e20f-4514-919b-6be52ecf26e3" name="Changes" comment="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #&#10;csv folder and basic code for csv&#10;removed#" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711003090129</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #&#10;csv folder and basic code for csv&#10;removed#">
+      <created>1711003904403</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711003904403</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +226,7 @@
     <MESSAGE value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records" />
     <MESSAGE value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #" />
     <MESSAGE value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #&#10;csv folder and basic code for csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #&#10;csv folder and basic code for csv" />
+    <MESSAGE value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #&#10;csv folder and basic code for csv&#10;removed#" />
+    <option name="LAST_COMMIT_MESSAGE" value="making new file&#10;learning how to read a file with python&#10;learning how to write in a file with python&#10;making a new file for pickling and unpickling&#10;leaning how to load and dump and ssearch for records&#10;learning how to update records&#10;removed #&#10;csv folder and basic code for csv&#10;removed#" />
   </component>
 </project>
