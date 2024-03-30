@@ -28,3 +28,15 @@
 # awesome is more than 4'''
 # file.write(text)
 # file.close()
+
+#to find if line starts with p
+# def countp():
+#     file=open('STORY.TXT','r')
+#     line=file.readlines()
+#     for word in line:
+#         if word[0]=='P' or word[0]=='p':
+#             print(word)
+#     file.close()
+# countp()
+
+
