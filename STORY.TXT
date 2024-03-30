@@ -1,0 +1,3 @@
+hello this is my text 
+a new file is created 
+awesome is more than 4
