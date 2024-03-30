@@ -75,14 +75,22 @@
 # print(text)
 # file.close()
 
-def ISTOUPCOUNT():
-    count=0
-    file=open("STORY.TXT")
-    text=file.read()
-    words=text.split()
-    for word in words:
-        if word=='is' or word=='to' or word=='up':
-            count+=1
-    print(count)
-    file.close()
-ISTOUPCOUNT()
+# def ISTOUPCOUNT():
+#     count=0
+#     file=open("STORY.TXT")
+#     text=file.read()
+#     words=text.split()
+#     for word in words:
+#         if word=='is' or word=='to' or word=='up':
+#             count+=1
+#     print(count)
+#     file.close()
+# ISTOUPCOUNT()
+
+import pickle
+file=open("log.dat",'rb')
+try:
+    while True:
+        y=pickle.load(file)
+    
+
