@@ -41,11 +41,48 @@
 
 #given text file car.txt conatining the following information of cars : carno,carname,milage.
 #write a python function to display details of all those cars whoes milage is from 100 to 150
-file=open("car.txt",'r')
-text=file.readlines()
-file.close()
-for line in text:
-    x=line.split()
-    milage=(int)(x[2])
-    if milage>100 and milage<150:
-        print(line)
+# file=open("car.txt",'r')
+# text=file.readlines()
+# file.close()
+# for line in text:
+#     x=line.split()
+#     milage=(int)(x[2])
+#     if milage>100 and milage<150:
+#         print(line)
+
+#write a method in python to write multiple lines of text contents into a file, "myfile.txt" line.
+# file=open('myfile.txt','w')
+# while True:
+#     text=input("enter line")
+#     file.write(text)
+#     choice=input("enter more lines?")
+#     if choice =='N':
+#         break
+
+
+# def countfirstdigit():
+#     count=0
+#     file=open("diary.txt",'r')
+#     text=file.readlines()
+#     for word in text:
+#         if word[0].isdigit():
+#             count+=1
+
+# file = open("STORY.TXT",'r')
+# w=int(input("enter number"))
+# file.seek(w)
+# text=file.read()
+# print(text)
+# file.close()
+
+def ISTOUPCOUNT():
+    count=0
+    file=open("STORY.TXT")
+    text=file.read()
+    words=text.split()
+    for word in words:
+        if word=='is' or word=='to' or word=='up':
+            count+=1
+    print(count)
+    file.close()
+ISTOUPCOUNT()
