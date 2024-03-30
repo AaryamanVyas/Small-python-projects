@@ -88,9 +88,25 @@
 # ISTOUPCOUNT()
 
 import pickle
-file=open("log.dat",'rb')
-try:
-    while True:
-        y=pickle.load(file)
-    
-
+def createfile():
+    file=open("book.dat",'w')
+    bookno=int(input("book number"))
+    bookname=input("enter name")
+    author=input("enter author")
+    price=float(input("price"))
+    rec=[bookno,bookname,author,price]
+    pickle.dump(rec,file)
+    file.close()
+def countrec():
+    author=input("enter author name")
+    file=open("book.dat",'rb')
+    num=0
+    try:
+        while True:
+            rec=pickle.load(file)
+            if author==rec[2]:
+                num=num+1
+    except:
+        file.close()
+        return num
+createfile()
