@@ -68,3 +68,19 @@
 # InsertQ(Names)
 
 # DeleteQ(Names)
+
+#how to reverse a stack
+def push(chr):
+    stk.append(chr)
+def pop():
+    try:
+        return stk.pop()
+    except:
+        print("empty queue")
+stk=[]
+str=input("enter a string ")
+for i in range(len(str)):
+    push(str[i])
+print("the reversed string is")
+for i in range(len(str)):
+    print(pop(),end="")
