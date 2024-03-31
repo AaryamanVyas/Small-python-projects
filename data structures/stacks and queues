@@ -76,12 +76,12 @@ def pop():
     try:
         return stk.pop()
     except:
-        print("empty stack")
+        print("empty")
 stk=[]
-str=input("enter a string to be reversed")
+str=input("enter a string")
 for i in range(len(str)):
     push(str[i])
-print("the reveresed string is")
+print("the reversed string is")
 for i in range(len(str)):
     print(pop(),end='')
 
