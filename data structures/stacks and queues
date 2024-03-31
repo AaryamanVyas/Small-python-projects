@@ -1,20 +1,50 @@
-#write functions in python for pushS(list) and for popS(list) for performing push and pop operartions
-#with a stack of list containing integers
-def PushS(List):
-    n = int(input("Enter a number: "))
-    List.append(n)
+# #write functions in python for pushS(list) and for popS(list) for performing push and pop operartions
+# #with a stack of list containing integers
+# def PushS(List):
+#     n = int(input("Enter a number: "))
+#     List.append(n)
 
-def PopS(List):
-    if not List:
-        print("Stack empty; underflow")
-    else:
-        print("Deleted value:", List.pop())
+# def PopS(List):
+#     if not List:
+#         print("Stack empty; underflow")
+#     else:
+#         print("Deleted value:", List.pop())
+
+# # Example usage
+# List = [1, 2, 3]
+
+# # Push an element onto the stack
+# PushS(List)
+
+# # Pop an element from the stack
+# PopS(List)
+
+
+NoVowel = []  # Stack to store words without vowels
+Vowels = 'AEIOUaeiou'  # String containing vowels
+
+def PushNv(words):
+    for word in words:
+        vowel_present = False
+        # Checking if any vowel is present in the word
+        for letter in word:
+            if letter in Vowels:
+                vowel_present = True
+                break
+        if not vowel_present:
+            NoVowel.append(word)
 
 # Example usage
-List = [1, 2, 3]
+All = []
+for i in range(5):
+    w = input("Enter a word: ")
+    All.append(w)
 
-# Push an element onto the stack
-PushS(List)
+PushNv(All)
 
-# Pop an element from the stack
-PopS(List)
+if len(NoVowel) == 0:
+    print("No words without vowels found.")
+else:
+    print("Words without vowels:")
+    while len(NoVowel) != 0:
+        print(NoVowel.pop())
