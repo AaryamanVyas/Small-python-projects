@@ -70,24 +70,40 @@
 # DeleteQ(Names)
 
 #how to reverse a stack
-def push(chr):
-    stk.append(chr)
+# def push(chr):
+#     stk.append(chr)
+# def pop():
+#     try:
+#         return stk.pop()
+#     except:
+#         print("empty")
+# stk=[]
+# str=input("enter a string")
+# for i in range(len(str)):
+#     push(str[i])
+# print("the reversed string is")
+# for i in range(len(str)):
+#     print(pop(),end='')
+
+
+#write a program to create a stack for storing only odd numbers out of all the numbers entered by the user
+def push(num):
+    stk.append(num)
+
 def pop():
     try:
         return stk.pop()
-    except:
+    except IndexError:
         print("empty")
-stk=[]
-str=input("enter a string")
-for i in range(len(str)):
-    push(str[i])
-print("the reversed string is")
-for i in range(len(str)):
-    print(pop(),end='')
 
+stk = []
+numbers = input("Enter numbers separated by spaces: ").split()
+for num in numbers:
+    num = int(num)
+    if num % 2 != 0:
+        push(num)
 
-
-
-
-
+print("The odd numbers are:")
+while stk:
+    print(pop())
 

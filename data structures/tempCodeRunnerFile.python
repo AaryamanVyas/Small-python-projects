@@ -1,0 +1,16 @@
+def push(num):
+    stk.append(num)
+def pop():
+    try:
+        return stk.pop()
+    except:
+        print("empty")
+stk=[]
+number=input("enter numbers").split
+for num in number:
+    num=int(num)
+    if num%2!=0:
+        push(num)
+print("the odd numbers are")
+for num in number:
+    print(pop(),end='')
