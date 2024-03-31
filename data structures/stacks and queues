@@ -76,11 +76,18 @@ def pop():
     try:
         return stk.pop()
     except:
-        print("empty queue")
+        print("empty stack")
 stk=[]
-str=input("enter a string ")
+str=input("enter a string to be reversed")
 for i in range(len(str)):
     push(str[i])
-print("the reversed string is")
+print("the reveresed string is")
 for i in range(len(str)):
-    print(pop(),end="")
+    print(pop(),end='')
+
+
+
+
+
+
+
