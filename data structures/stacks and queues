@@ -118,3 +118,95 @@
 #         print("empty")
 # arr=[10,20,3,2,15]
 # push(arr)
+
+# def pop(arr):
+#     if len(arr)==0:
+#         print("empty")
+#     else:
+#         return arr.pop()
+# stack=[1,2,3,4,5]
+# print("poped value",pop(stack))
+# print("remaining value",stack)
+
+# def popstack(st):
+#     if len(st) == 0:
+#         print("Underflow")
+#         return None
+#     else:
+#         val = st[-1]  # Accessing the last element of the list
+#         print(val)
+#         st.pop()  # Removing the last element of the list
+#         return val
+
+# a = [1, 2, 3, 4, 5]
+# popstack(a)
+
+
+# def push(arr):
+#     stack=[]
+#     for num in arr:
+#         if num%2==0:
+#             stack.append(num)
+#     return stack
+# def pop(stack):
+#     while stack:
+#         print(stack.pop(),end=' ')
+# n=[12,13,34,56,21,79,98,22,35,38]
+# stack=push(n)
+# pop(stack)
+
+# def add(book):
+#     stk.append(book)
+
+# def remove():
+#     if not stk:
+#         print("Stack is empty")
+#     else:
+#         print("Book:", stk.pop(), "deleted")
+
+# stk = []
+# book = input("Enter book name: ")
+# add(book)
+# remove()
+def isempty(stk):
+    return not stk
+
+def pushbook(stk, item):
+    stk.append(item)
+    top = len(stk) - 1
+
+def displaybook(stk):
+    if isempty(stk):
+        print("Stack is empty")
+    else:
+        print("Book No.\tBook Name")
+        for book in reversed(stk):
+            print(book[0], "\t\t", book[1])
+
+stk = []
+top = None
+
+while True:
+    print("Book")
+    print("1. Add a book")
+    print("2. Display list")
+    print("3. Exit")
+    ch = int(input("Enter your choice (1-3): "))
+    
+    if ch == 1:
+        bno = input("Enter book no: ")
+        bname = input("Enter book name: ")
+        item = [bno, bname]
+        pushbook(stk, item)
+        input("Press Enter to continue...")
+    
+    elif ch == 2:
+        displaybook(stk)
+        input("Press Enter to continue...")
+    
+    elif ch == 3:
+        break
+    
+    else:
+        print("Invalid choice")
+        input("Press Enter to continue...")
