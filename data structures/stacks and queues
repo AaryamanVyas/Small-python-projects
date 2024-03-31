@@ -1,0 +1,20 @@
+#write functions in python for pushS(list) and for popS(list) for performing push and pop operartions
+#with a stack of list containing integers
+def PushS(List):
+    n = int(input("Enter a number: "))
+    List.append(n)
+
+def PopS(List):
+    if not List:
+        print("Stack empty; underflow")
+    else:
+        print("Deleted value:", List.pop())
+
+# Example usage
+List = [1, 2, 3]
+
+# Push an element onto the stack
+PushS(List)
+
+# Pop an element from the stack
+PopS(List)
