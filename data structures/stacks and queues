@@ -20,31 +20,51 @@
 # PopS(List)
 
 
-NoVowel = []  # Stack to store words without vowels
-Vowels = 'AEIOUaeiou'  # String containing vowels
+# NoVowel = []  # Stack to store words without vowels
+# Vowels = 'AEIOUaeiou'  # String containing vowels
 
-def PushNv(words):
-    for word in words:
-        vowel_present = False
-        # Checking if any vowel is present in the word
-        for letter in word:
-            if letter in Vowels:
-                vowel_present = True
-                break
-        if not vowel_present:
-            NoVowel.append(word)
+# def PushNv(words):
+#     for word in words:
+#         vowel_present = False
+#         # Checking if any vowel is present in the word
+#         for letter in word:
+#             if letter in Vowels:
+#                 vowel_present = True
+#                 break
+#         if not vowel_present:
+#             NoVowel.append(word)
 
-# Example usage
-All = []
-for i in range(5):
-    w = input("Enter a word: ")
-    All.append(w)
+# # Example usage
+# All = []
+# for i in range(5):
+#     w = input("Enter a word: ")
+#     All.append(w)
 
-PushNv(All)
+# PushNv(All)
 
-if len(NoVowel) == 0:
-    print("No words without vowels found.")
-else:
-    print("Words without vowels:")
-    while len(NoVowel) != 0:
-        print(NoVowel.pop())
+# if len(NoVowel) == 0:
+#     print("No words without vowels found.")
+# else:
+#     print("Words without vowels:")
+#     while len(NoVowel) != 0:
+#         print(NoVowel.pop())
+
+# def InsertQ(queue):
+#     name = input("Enter a name: ")
+#     queue.append(name)
+
+# def DeleteQ(queue):
+#     if not queue:
+#         print("Queue is empty")
+#     else:
+#         deleted_value = queue.pop(0)
+#         print("Deleted value is:", deleted_value)
+
+# # Example usage
+# Names = []
+
+# InsertQ(Names)
+# InsertQ(Names)
+# InsertQ(Names)
+
+# DeleteQ(Names)
