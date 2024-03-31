@@ -87,23 +87,34 @@
 
 
 #write a program to create a stack for storing only odd numbers out of all the numbers entered by the user
-def push(num):
-    stk.append(num)
+# def push(num):
+#     stk.append(num)
 
-def pop():
-    try:
-        return stk.pop()
-    except IndexError:
-        print("empty")
+# def pop():
+#     try:
+#         return stk.pop()
+#     except IndexError:
+#         print("empty")
 
-stk = []
-numbers = input("Enter numbers separated by spaces: ").split()
-for num in numbers:
-    num = int(num)
-    if num % 2 != 0:
-        push(num)
+# stk = []
+# numbers = input("Enter numbers separated by spaces: ").split()
+# for num in numbers:
+#     num = int(num)
+#     if num % 2 != 0:
+#         push(num)
 
-print("The odd numbers are:")
-while stk:
-    print(pop())
+# print("The odd numbers are:")
+# while stk:
+#     print(pop())
 
+# def push(arr):
+#     s=[]
+#     for num in arr:
+#         if num %5 ==0:
+#             s.append(num)
+#     if len(s)>0:
+#         print("stack",s)
+#     else:
+#         print("empty")
+# arr=[10,20,3,2,15]
+# push(arr)
