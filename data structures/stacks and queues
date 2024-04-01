@@ -213,3 +213,8 @@
 # n=5
 # for i in range(0,n):
 #     print (i)
+# import random
+# first=random.randint(2,5)
+# print(first)
+# for i in range(1,3):
+#     print(i)
